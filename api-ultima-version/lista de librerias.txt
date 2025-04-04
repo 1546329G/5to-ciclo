@@ -34,3 +34,43 @@ PS C:\Users\GANDY\OneDrive - SENATI\Documentos\Proyectos-apis>
 
 
 librerías para api 
+
+
+
+
+
+
+
+    Content-Type  application/json
+
+
+/*
+{   "dni": "16648888888888888888888888888344773",
+    "nombre": "Benja", 
+    "password": "1245"
+}*/
+/*
+{
+    "dni": "75091732",
+    "nombre": "Benja",
+    "programa_estudios": "zapatero molecular",
+    "estado": "BUSCAO",  
+    "observaciones": "Todo bien con comida y muy loco.",
+    "password": "123456798"
+}*/
+
+/*alumnos*/
+
+{
+    "dni": "7998777",
+    "password": "1234567"
+}
+
+
+
+/*vigilante*/
+/*
+{
+    "dni": "16643773",
+    "password": "1245"
+}*/
