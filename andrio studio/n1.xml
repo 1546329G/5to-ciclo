@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- ingresar el nombre -->
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para mostrar el nombre -->
+    <Button
+        android:id="@+id/buttonMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Nombre"
+        android:layout_below="@id/editTextNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView para mostrar el nombre ingresado -->
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu nombre aparecerá aquí"
+        android:layout_below="@id/buttonMostrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+package com.gandyh.senativ2025
+
+class KotlinEjemplo2 {
+    val constamte: String = "gandy"
+    var contador: Int = 0
+    var precio: Double = 3.14
+    var  esVERdadero: Boolean = true
+    var nombre: String = "SENATI"
+
+    val numeros = listOf(1,2,3,4,5)
+    val nombres = mutableListOf("Ana","Carla","Elena")
+    var tipoCambio: Double = 3.68
+
+    fun calcularEnDolares(precio: Double, tipoCambio: Double): Double
+    {
+        return precio * tipoCambio
+    }
+
+    fun calcularEnsoles(precio: Double, tipoCambio: Double): Double
+    {
+        return precio / tipoCambio
+    }
+}
+
+
+fun main()
+{
+    var kotlin = KotlinEjemplo2()
+    var respuesta =  kotlin.calcularEnDolares(350.50,3.68)
+    println(" El precio en soles es $respuesta")
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

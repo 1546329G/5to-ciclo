@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- ingresar el nombre -->
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa tu nombre"
+        android:inputType="textPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Botón para mostrar el nombre -->
+    <Button
+        android:id="@+id/buttonMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Nombre"
+        android:layout_below="@id/editTextNombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- TextView para mostrar el nombre ingresado -->
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu nombre aparecerá aquí"
+        android:layout_below="@id/buttonMostrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+
+
+
+1: RenzoYereminHuanacuniCapia
+2: Carolina-GR
+3: 1546329G
+4: thrineeka
+5: Duilio247

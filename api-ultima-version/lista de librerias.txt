@@ -1,0 +1,76 @@
+PS C:\Users\GANDY\OneDrive - SENATI\Documentos\Proyectos-apis> pip freeze
+blinker==1.9.0
+click==8.1.8
+colorama==0.4.6
+Flask==3.1.0
+Flask-JWT-Extended==4.7.1
+Flask-SQLAlchemy==3.1.1
+greenlet==3.1.1
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.2
+mysql-connector-python==9.2.0
+PyJWT==2.10.1
+PyMySQL==1.1.1
+python-dotenv==1.0.1
+SQLAlchemy==2.0.39
+typing_extensions==4.12.2
+Werkzeug==3.1.3
+pip install flask
+
+
+python -m venv venv
+. .\venv\Scripts\activate.ps1
+pip install -r requirements.txt
+
+pip install mysql-connector-python
+
+
+PS C:\Users\GANDY\OneDrive - SENATI\Documentos\Proyectos-apis>    
+
+
+
+
+
+
+librerías para api 
+
+
+
+
+
+
+
+    Content-Type  application/json
+
+
+/*
+{   "dni": "16648888888888888888888888888344773",
+    "nombre": "Benja", 
+    "password": "1245"
+}*/
+/*
+{
+    "dni": "75091732",
+    "nombre": "Benja",
+    "programa_estudios": "zapatero molecular",
+    "estado": "BUSCAO",  
+    "observaciones": "Todo bien con comida y muy loco.",
+    "password": "123456798"
+}*/
+
+/*alumnos*/
+
+{
+    "dni": "7998777",
+    "password": "1234567"
+}
+
+
+
+/*vigilante*/
+/*
+{
+    "dni": "16643773",
+    "password": "1245"
+}*/
